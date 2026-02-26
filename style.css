@@ -34,3 +34,14 @@ th{
 td{
     border: 2px solid midnightblue;
     background-color: cornsilk;}*/
+
+tr:hover{ /*mouse ile üstüne geldiğimde satırın büründüğü renk*/
+    background-color: beige;
+}
+
+tr:nth-child(even){
+    background-color: lightcyan;
+}
+tr:nth-child(odd){
+    background-color: lightskyblue;
+}
