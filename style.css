@@ -1,11 +1,36 @@
 h1{
     /*index.html deki bütün h1'lerin rengini yeşil yapıyor*/
-    color:black;
+    color:darksalmon;
     background-color:gray;
 }
+
 body{
     background-color: white;
 }
+
 p{
-    color:white
+    color: black;
 }
+
+table{
+    border-collapse: collapse; /*tablodaki fazla çizgilerden kurtulduk*/
+    width:100%; /*sayfada genişleyebileceği kadar genişliyor*/
+} 
+ /*vereceğimiz özellikler aynıysa bunu kullanabiliriz*/
+table,th,td{
+    border: 2px solid midnightblue;
+    height: 30px;
+    margin: 5px;
+}
+
+td{
+    text-align: center;
+}
+            
+/*table{border: 2px solid midnightblue;}
+th{
+    border: 2px solid midnightblue;
+    background-color: bisque;}
+td{
+    border: 2px solid midnightblue;
+    background-color: cornsilk;}*/
