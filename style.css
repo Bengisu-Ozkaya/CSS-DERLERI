@@ -1,0 +1,11 @@
+h1{
+    /*index.html deki bütün h1'lerin rengini yeşil yapıyor*/
+    color:black;
+    background-color:gray;
+}
+body{
+    background-color: white;
+}
+p{
+    color:white
+}

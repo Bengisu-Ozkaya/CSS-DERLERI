@@ -1,0 +1,67 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <!-- css dosyasını link ile referans ediyoruz 
+             rel ile türünü söylüyoruz
+             href tag'ide nerede olduğunu söylüyoruz -->
+        <script src="script.js"></script>
+
+        <!-- CSS kullanmak yerine burada style da kullanılabilir -->
+        <style>
+            h1{
+                color: darksalmon;
+                background-color: maroon;
+            }
+            div{
+                border: 3px solid midnightblue;
+                /*
+                1.ÖZELLİK 
+                border -> kalınlık
+                  
+                2.ÖZELLİK
+                solid -> çizgi halinde olması
+                dotted -> noktalı bir çerçeve
+                dashed -> uzun çizgilerle olan çerçeve
+                  
+                3.ÖZELLİK
+                renk
+                */
+
+                /*margin -> diğer elementlerle veya sayfa kenarları arasındaki boşluk*/
+                margin-top: 20px;
+                margin-right: 20px;
+                margin-left: 20px;
+                /*margin-bottom:120px*/ 
+                /*margin-bottom -> alttan verilen margin ama şuan peki bir etkisi olmayacağı için yorum saıtrında*/
+                
+                /*padding -> elementin içeriği ile kendi sınırları arasındaki boşluk*/
+                padding: 5px;
+                /*alttaki ve üstteki kodlar birebir aynı işe yarıyor*/
+                /*padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;*/
+                
+            }
+        </style>
+    </head>
+    <body> 
+        <!-- Style işleminin bir başka versiyonu da tag'in içinde style kullnamaktır -->
+        <h1 style="background-color: midnightblue;">Hello World!</h1>
+        <p>Bengi Özkaya, akademik başarısı çöp olan biri</p>
+        
+        <div>
+            Contrary to popular belief, 
+            Lorem Ipsum is not simply random text. 
+            It has roots in a piece of classical Latin literature 
+            from 45 BC, making it over 2000 years old. 
+            Richard McClintock, a Latin professor 
+            at Hampden-Sydney College in Virginia, 
+            looked up one of the more obscure Latin words, 
+            consectetur, from a Lorem Ipsum passage, and going 
+            through the cites of the word in classical literature, 
+            discovered the undoubtable source.
+    </body>
+
+</html>
