@@ -10,14 +10,18 @@ input[type=text]:focus, input[type=password]:focus{
    background-color: rgb(125, 152, 231);
 }
 
-.myClass{
+.myClass{ /*başında nokta olmazsa sınıf olduğunu bilemeyiz*/
     color:cornsilk;
     background-color: midnightblue;
 }
 
-p.paragraphClass{
+p.paragraphClass{ /*sadece paragraflara özel sınıf*/
     color:white;
-    background-color: rgb(56, 56, 112);
+    background-color: rgb(66, 66, 142);
 }
 
+#email:focus{ /*id'si email olanı alıyor*/
+    background-color:rgb(103, 109, 151);
+    color:white;
+}
                
